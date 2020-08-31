@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "start": "umi dev",
+    "start": "set PORT=8062 && umi dev",
     "build": "umi build",
     "postinstall": "umi generate tmp",
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
@@ -23,8 +23,12 @@
     "@ant-design/pro-layout": "^5.0.12",
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.2.19",
+    "axios": "^0.20.0",
+    "echarts": "^4.9.0",
+    "echarts-for-react": "^2.0.16",
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
+    "query-string": "^6.13.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "umi": "^3.2.19",

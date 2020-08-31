@@ -1,8 +1,6 @@
 import { defineConfig } from 'umi';
+import router from '@/router.js';
 
 export default defineConfig({
-  nodeModulesTransform: {
-    type: 'none',
-  },
-  dynamicImport: {},
+  routes: router,
 });
