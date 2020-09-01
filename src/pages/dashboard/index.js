@@ -29,6 +29,4 @@ function DashboardPage(props) {
   );
 }
 
-DashboardPage.propTypes = {};
-
 export default connect(({ dashboard }) => ({ dashboard }))(DashboardPage);

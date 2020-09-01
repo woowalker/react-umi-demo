@@ -4,5 +4,7 @@ export default defineConfig({
   nodeModulesTransform: {
     type: 'none',
   },
-  dynamicImport: {},
+  dynamicImport: {
+    loading: '@/components/layout/PageLoading',
+  },
 });

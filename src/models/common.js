@@ -25,7 +25,6 @@ export default {
   },
   effects: {
     *getOrgList({ payload, cb }, { call, put }) {
-      // eslint-disable-line
       const response = yield call(api['common/getOrgList'], payload);
       cb instanceof Function && cb(response);
       yield put({ type: 'save', payload: { orgList: response.Data } });

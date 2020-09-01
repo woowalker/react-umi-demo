@@ -84,8 +84,6 @@ function HomePage(props) {
   );
 }
 
-HomePage.propTypes = {};
-
 export default connect(({ common, home, loading }) => ({
   common,
   home,
