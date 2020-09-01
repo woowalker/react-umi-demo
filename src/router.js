@@ -1,4 +1,4 @@
-import dynamic from '@/src/utils/dynamic';
+import dynamic from '@/utils/dynamic';
 
 const HomePage = dynamic('@/pages/home');
 const DashboardPage = dynamic('@/pages/dashboard');
